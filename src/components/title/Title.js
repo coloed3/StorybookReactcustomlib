@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import PropTypes from "prop-types";
 const fontsize = {
   small: "90%",
   medium: "150%",
@@ -26,3 +26,12 @@ const Title = styled.h1`
 `;
 
 export default Title;
+
+Title.propTypes = {
+  size: PropTypes.string,
+  color: PropTypes.string,
+  align: PropTypes.string,
+  margin: PropTypes.string,
+  padding: PropTypes.string,
+  weight: PropTypes.string,
+};

@@ -1,4 +1,3 @@
-
 import Card from "./Card";
 
 export default {
@@ -16,7 +15,6 @@ export default {
   },
 };
 
-
 export const CardTest = (args) => <Card {...args} />;
 CardTest.args = {
   children: "Hello World",
@@ -28,6 +26,3 @@ CardTest.args = {
   border: "blue",
   color: "black",
 };
-
-
-

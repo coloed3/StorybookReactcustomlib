@@ -1,5 +1,6 @@
 import React from "react";
 import Grid from "./Grid";
+import GridDisplay from "./GridDisplay";
 import styled from "styled-components";
 
 export const TestDiv = styled.div`
